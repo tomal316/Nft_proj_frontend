@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 42em;
+    width: 27em;
+    background-color: rgb(57, 62, 81);
+}
+
+
+.nftpic {
+    width: 85%;
+    border-radius: 20px;
+}
+
+.view {
+    position: absolute;
+    display: none;
+    width: 100px;
+}
+
+.nftpic:hover .view{
+    display: block;
+    z-index: 1;
+
+}
+
+h1 {
+    display: flex;
+    justify-self: flex-start;
+    width: 85%;
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-bottom: 2px;
+    color: aliceblue;
+}
+
+p {
+    display: flex;
+    justify-self: flex-start;
+    width: 85%;
+    font-size: 1.3em;
+    color: darkgray;
+}
+
+.valuetime {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+hr {
+    margin-top: 20px;
+    color: darkgray;
+    width: 85%;
+}
+
+.eth {
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    color: #00FFF8;
+    gap: 5px;
+}
+
+.eth span {
+    margin-top: 1px;
+}
+
+.time {
+    display: flex;
+    font-size: large;
+    color: #8BACD9;
+    gap: 5px;
+}
+
+.time span {
+    margin-top: 1px;
+}
+
+.creator {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.creator img {
+    height: auto;
+    width: 30px;
+    border: 3px solid darkgray;
+    border-radius: 50%;
+}
+
+.creator div {
+    transform: translate(-6px, 8px);
+    color: darkgray;
+}
+
+#name {
+    color: white;
+}
